@@ -1,0 +1,174 @@
+projects:
+- currumbin-valley:
+  project: "currumbin-valley"
+  title: "Currumbin Valley Home"
+  url: "/projects/currumbin-valley/"
+  suburb: "Currumbin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_tally_connection_2.jpg"
+  bed: "5"
+  bath: "5"
+  car: "7"
+  area: "720sqm"
+  year: "2021"
+  lead: ""
+  text: "Connecting with nature to enjoy a relaxed lifestyle living amongst local wildlife such as kangaroos and beautiful birdlife. Spanning a single level and comprising two residences, pool, five car garage and two space carport."
+  testimonial: "We want everyone to have a great experience building their new home and with Creative Homes they get just that."
+
+- wilarimbam:
+  title: "Wilarimbam"
+  project: "wilarimbam"
+  url: "/projects/wilarimbam/"
+  suburb: "Bonogin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/wilarimbam_1.jpg"
+  bed: "5"
+  bath: "4"
+  car: "3"
+  area: "709sqm"
+  year: "2018"  
+  lead: ""
+  text: Wilarimbam soars high at 201m above sea level in this highly sought-after elevated Mudgeeraba Forest position commanding hinterland views through to the coastal skyline and beyond. This all-suite retreat styled home has everything you need, defined by meticulous attention to detail and planning to create an environment that is as ideal for entertaining as it is for seclusion, privacy and retreat.  
+  testimonial: "The clients were searching for something special that would deliver an escape from the demands of their hectic schedule."
+
+- beaupde:
+  title: "Beau Parade"
+  project: "beau"
+  url: "/projects/beau/"
+  suburb: "Bonogin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_beau_court-1.jpg"
+  bed: "5"
+  bath: "3"
+  car: "4"
+  area: "420sqm"
+  year: "2019"  
+  lead: ""
+  text: Perched in a peaceful, leafy enclave, and in the Mudgeeraba Forest the home blends harmoniously with the surrounding lush bushlands.
+  testimonial: "We want everyone to have a great experience building their new home &mdash; and with Creative Homes they get just that."
+
+- tolga:
+  project: "tolga"
+  title: "Tolga Road"
+  url: "/projects/tolga/"
+  suburb: "Bonogin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_tolga_rd_2.jpg"
+  bed: "4"
+  bath: "2"
+  car: "2"
+  area: "262sqm"
+  year: "2019"
+  lead: ""
+  text: "The high ceilings throughout and effortless integration of indoor/outdoor living provides a spacious and airy atmosphere.
+  The expansive outdoor entertaining area flows directly to the swimming pool and lush gardens that provide the perfect outdoor setting."
+  testimonial: "We want everyone to have a great experience building their new home &mdash; and with Creative Homes they get just that."
+
+- little-tree:
+  project: "little-tree"
+  title: "Little Tree House"
+  url: "/projects/little-tree/"
+  suburb: "Tallebudgera"
+  city: "Gold Coast"
+  image: "/assets/images/projects/little-tree.jpg"
+  bed: "5"
+  bath: "3"
+  car: "3"
+  area: "490sqm"
+  year: "2014"
+  imgvariable: "little-tree"
+  lead:
+  text: Located in Tallebudgera Park Estate, this home was built in 2013. Situated next to the “Tree House”, the “Little Tree House” has also been built around its very own magnificent Fig Tree.
+  testimonial: I think the swim-up-bar is the highlight. It feels so luxurious swimming up to your own bar in a fully tiled pool.
+
+- koombahla:
+  project: "koombahla"
+  title: "Koombahla Drive"
+  url: "/projects/koombahla/"
+  suburb: "Tallebudgera"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_koombahla_1.jpg"
+  bed: "5"
+  bath: "4"
+  car: "6"
+  area: "650sqm"
+  year: "2016"
+  imgvariable: "koombahla"
+  lead: "Featuring: 5 Bedrooms, 3 Bathrooms,"
+  text: The client dreamt of building a house in symbiosis with its natural environment.It is nestled with little impact into a beautiful plot of wooded land in Tallebudgera on the Gold Coast. With windows on each side of the living room the house was able to catch a breeze or view from any direction.
+  testimonial: We built our dream home with Creative Homes and couldn't be happier. Anyone who visits compares it to living in a resort.
+
+- rainforest:
+  project: "rainforest"
+  title: "Rainforest Retreat"
+  url: "/projects/rainforest/"
+  suburb: "Bonogin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/rainforest.jpg"
+  bed: "4"
+  bath: "3"
+  car: "5"
+  area: "450sqm"
+  year: "2010"
+  imgvariable: "rainforest"
+  lead: "Featuring 5 Bedrooms, 3 Bathrooms, powder room, Double lock up garage, double carport,
+  outdoor entertaining/bar area and swimming pool."
+  text: "Situated in the stunning Mudgeeraba Forest Estate in Bonogin, this home was custom built to take advantage of the cool breezes with large timber doors drawing in the gentle flowing breezes."
+  testimonial: We wanted a house that would eventually blend into the natural environment. We love what Creative Homes do.
+
+- treehouse:
+  project: "treehouse"
+  title: "The Tree House"
+  url: "/projects/treehouse/"
+  suburb: "Tallebudgera"
+  city: "Gold Coast"
+  image: "/assets/images/projects/treehouse.jpg"
+  bed: "5"
+  bath: "3"
+  car: "6"
+  area: "820sqm"
+  year: "2009"
+  imgvariable: "treehouse"
+  lead: "Featuring: 5 Bedrooms, 3 Bathrooms, powder room, Double lock up garage, single carport, swimming pool with sunken pool bar."
+  text: Built around a magnificent fig tree this house features two separate guest wings surrounded by beautiful tropical gardens. Being so big the house is perfect for family gatherings or could even host small events such as weddings.
+  testimonial: "We want everyone to have a great experience building their new home &mdash; and with Creative Homes they get just that."
+  gallery:
+  - "creative_homes_tree_house_1.jpg"
+  - "creative_homes_tree_house_2.jpg"
+
+- bourkes:
+  project: "bourkes"
+  title: "Bourkes Lodge"
+  url: "/projects/bourke-lodge/"
+  suburb: "Currumbin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/bourkes.jpg"
+  bed: "5"
+  bath: "3"
+  car: "5"
+  area: "660sqm"
+  year: "2005"
+  imgvariable: "bourkes"
+  lead: "Featuring: 4 Bedrooms, 3 Bathrooms, powder room, Double lock up garage,
+  workspace, double carport and swimming pool."
+  text: This house features an infinity pool overlooking the ponds of Currumbin Valley. The cladding is finished in western red cedar with a silver wash. The open plan kitchen and dining flow onto the exterior decks surrounded by large hardwood posts. The design was for families at all stages in life. Impressive sized bedrooms all featuring private balconies.
+  testimonial: We wanted a home that was different to everyone else but functional and easy to live in. People are always eager to visit us and are amazed at the place even if they’ve been here before. They say it’s like coming to a resort! Even we are amazed when we come back after being away.
+
+- lakehouse:
+  project: "lakehouse"
+  title: "The Lake House"
+  url: "/projects/lakehouse/"
+  suburb: "Tallebudgera"
+  city: "Gold Coast"
+  image: "/assets/images/projects/lakehouse-1.jpg"
+  bed: "4"
+  bath: "3"
+  car: "5"
+  area: "550sqm"
+  year: "1995"
+  imgvariable: "lakehouse"
+  lead:
+  text: Creative Home's founder Jeff Dray designed and built this unique home, built on piers extending into the water, it offers an extraordinary connection to the water. Wildlife such as turtles and all kinds of water birds created a truly rare living experience. The pool was designed so that it blended seamlessly into the lake.
+  testimonial: This house was the first built within Tallebudgera Park Estate, it was only fitting to create something special.
+
+

@@ -1,0 +1,62 @@
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-sticky {{page.navbar}}">
+    <div class="container">
+      <a href= "{{site.baseurl}}/" class="navbar-brand">
+        <img src="{{site.baseurl}}/assets/images/logo/{{page.logo}}" alt="Logo">
+      </a>
+  
+      <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+        <li class="nav-item">
+          <a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button"
+            aria-controls="offcanvasNav">
+            <svg width="31px" height="17px" viewBox="0 0 31 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Group" transform="translate(0.000000, -0.500000)" fill="{{page.nav}}" fill-rule="nonzero">
+                      <path d="M0.885714286,17.5 C0.396547793,17.5 0,17.0522847 0,16.5 C0,15.9477153 0.396547793,15.5 0.885714286,15.5 L30.1142857,15.5 C30.6034522,15.5 31,15.9477153 31,16.5 C31,17.0522847 30.6034522,17.5 30.1142857,17.5 L0.885714286,17.5 Z" id="Combined-Shape"></path>
+                      <path d="M0.885714286,10.5 C0.396547793,10.5 0,10.0522847 0,9.5 C0,8.94771525 0.396547793,8.5 0.885714286,8.5 L30.1142857,8.5 C30.6034522,8.5 31,8.94771525 31,9.5 C31,10.0522847 30.6034522,10.5 30.1142857,10.5 L0.885714286,10.5 Z" id="Combined-Shape"></path>
+                      <path d="M0.885714286,2.5 C0.396547793,2.5 0,2.05228475 0,1.5 C0,0.94771525 0.396547793,0.5 0.885714286,0.5 L30.1142857,0.5 C30.6034522,0.5 31,0.94771525 31,1.5 C31,2.05228475 30.6034522,2.5 30.1142857,2.5 L0.885714286,2.5 Z" id="Combined-Shape"></path>
+                  </g>
+              </g>
+          </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="offcanvas offcanvas-end bg-skin" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavLabel"></h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav nav-minimal" id="toc-nav">
+        <li class="menu-item">
+          <a class="h2 link" href="{{site.baseurl}}/">Home</a>
+          <div class="stroke"></div>
+        </li>
+        <li class="menu-item">
+          <a class="h2 link" href="{{site.baseurl}}/story">Our Story</a>
+          <div class="stroke"></div>
+        </li>
+        <li class="menu-item">
+          <a class="h2 link" href="{{site.baseurl}}/projects">Our Projects</a>
+          <div class="stroke"></div>
+        </li>
+        <li class="menu-item">
+          <a class="h2 link" href="{{site.baseurl}}/contact">Contact</a>
+          <div class="stroke"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="offcanvas-footer">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="" class="text-muted text-primary-hover"><i
+              class="bi bi-facebook fs-lg"></i></a></li>
+        <li class="list-inline-item ms-1"><a href="" class="text-muted text-primary-hover"><i
+              class="bi bi-instagram fs-lg"></i></a></li>
+        <li class="list-inline-item ms-1"><a href="" class="text-muted text-primary-hover"><i
+              class="bi bi-linkedin fs-lg"></i></a></li>
+      </ul>
+    </div>
+  </nav>

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Creative Homes – Gold Coast, QLD
+description: Creative Homes is a specialist in Modern Timber Pole Homes located on the Gold Coast.
+permalink: /projects/
+nav: "#000"
+navbar: "navbar-light"
+logo: logo-dark.svg
+---
+<!-- projects -->
+<section class="py-15 py-xl-20">
+  <div class="container">
+    <div class="row g-2 justify-content-between mb-8">
+      <div class="col-lg-7">
+        <h2 class="fs-1 fw-bold">We'd love to build something amazing together.</h2>
+      </div>
+      <div class="col-md-8 col-lg-4">
+        <blockquote class="blockquote mt-1">
+          <p class="fs-6">We build houses that are both sustainable and energy efficient which save you money while also being better for the environment.</p>
+        </blockquote>
+      </div>
+    </div>
+    <div class="row g-2 mb-8" data-masonry>
+      {% for block in site.data.portfolio.projects %}
+      <div class="col-md-6" data-aos="fade-up">
+        <a href="{{ block.url }}" class="card equal-md-1-1 card-arrow card-hover-gradient card-hover-arrow inverted">
+          <figure class="background" style="background-image: url('{{ block.image }}')"></figure>
+          <div class="card-wrap">
+            <div class="card-footer mt-auto text-shadow">
+              <time datetime="2020-12-18 20:00" class="eyebrow text-secondary">{{block.year}}</time>
+              <h6 class="card-title mt-1">{{block.title}}</h6>
+              <span>{{block.suburb}}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+      <!--end item-->
+    </div>
+  </div>
+</section>
+
+{% include contact.html %}

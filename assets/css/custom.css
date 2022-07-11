@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Canela-i";
+    src: url(../fonts/Canela-ThinItalic.woff2) format("woff2"),
+      url(../fonts/Canela-ThinItalic.woff) format("woff");
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Canela-f";
+    src: url(../fonts/Canela-Thin.woff2) format("woff2"),
+      url(../fonts/Canela-Thin.woff) format("woff");
+    font-weight: 100;
+    font-style: normal;
+  } 
+  @font-face {
+    font-family: "Basetica Light";
+    src: url(../fonts/basetica/basetica-light.woff2) format("woff2"),
+      url(../fonts/basetica/basetica-light.woff) format("woff");
+    font-weight: 100;
+    font-style: normal;
+  } 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  
+  .canela {
+    font-family: "Canela-f";
+  }
+
+  a:hover {
+    color: var(--accent);
+  }
+
+  .h1,
+h1 {
+  font-size: 4.5em;
+  font-family: "Canela-f";
+  font-weight: 100;
+  line-height: 1.2;
+}
+.home-title {
+    font-size: 7em;
+    line-height: 1em;
+  }
+@media (max-width: 768px) {
+  .h1,
+  h1 {
+    font-size: 60px;
+  }
+  .home-title {
+    font-size: 3em;
+    line-height: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .h1.mh2,
+  h1.mh2 {
+    font-size: 40px;
+  }
+}
+.h2,
+h2 {
+  font-size: 3em;
+  font-family: "Canela-f";
+  font-weight: 100;
+  line-height: 1.35;
+}
+@media (max-width: 768px) {
+  .h2,
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .h2.mh3,
+  h2.mh3 {
+    font-size: 35px;
+  }
+}
+.h3,
+h3 {
+  font-size: 1.8em;
+  font-family: "Canela-f";
+  font-weight: 100;
+  line-height: 1.25;
+}
+.h4,
+h4 {
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: lowercase;
+}
+.h5,
+h5 {
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  text-transform: lowercase;
+}
+.p,
+p {
+  line-height: 1.45;
+}
+.italic {
+  font-style:italic;
+}
+
+video {
+    filter: brightness(60%);
+ }
+.bg-skin {
+    background-color: var(--skin);
+} 
+.smcaps {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+.btn-outline-black {
+  border-color: var(--text);
+  color: 000;
+}
+.btn-outline-black:hover {
+  border-color: 000;
+  background-color: var(--text);
+  color: 000;
+}
+ 
+
+.gradient.fern {
+    background: radial-gradient(96.86% 250.08% at 0 0, #818878 0, #7e8d77 49.56%, #a1ada8 100%);
+  }
+  .gradient.green {
+    background: radial-gradient(137.55% 260.47% at 101.57% -37.55%, #3a5555 0, #92928d 68.34%, #beb6ac 100%);
+  }
+  .gradient.green-dark {
+    background: linear-gradient(162.92deg, #696c66 5%, #4c524f 52.02%, #464e47 70.74%, #2a2c2a 89.84%);
+  }
+.gradient.green-wood {
+  background: linear-gradient(90deg, rgba(99,113,88,1) 0%, rgba(146,172,137,1) 35%, rgba(167,183,154,1) 100%);
+}
+
+.navbar-nav .nav-icon {
+  display: flex;
+  width: 5rem;
+  height: 3rem;
+}
+
+.quote {
+  font-size: .7em;
+  font-weight: 900;
+  background-color: var(--skin);
+  padding: 2em;
+}
+
+.lead {
+  font-size: 1.55rem;
+}
+p {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom:1.25rem;
+  line-height: 1.95rem;
+}
+.lead {
+  font-size: 1.55rem;
+  letter-spacing: .03em;
+  line-height: 2.3rem;
+}
+.bg-secondary {
+  background-color:#f1efec !important
+}
+.accordion-steps .accordion-button:hover {
+  color: var(--accent);
+}
+.accordion-steps .accordion-button:before {
+  background: var(--fern);
+}
+.accordion-steps .accordion-button:hover::before {
+  background: var(--accent);
+}
+.accordion-steps .accordion-button[aria-expanded="true"] {
+  color: var(--accent)
+}
+
+.accordion-steps .accordion-button[aria-expanded="true"]::before {
+  background:var(--accent)
+}
+
+.text-accent {
+  color: var(--accent)
+}

@@ -1,0 +1,50 @@
+
+    <section class="overflow-hidden">
+        <div class="container-full">
+          <div class="row g-0">
+            {% if page.previous %}
+                {% assign previous = page.previous %}
+            {% else %}
+                {% assign previous = site.posts[0] %}
+            {% endif %}
+            <div class="col-md-6">
+              <a href="{{site.baseurl}}{{previous.url}}" class="card card-hover-reveal equal-lg-2-1 bg-primary inverted">
+                <div class="card-wrap">
+                  <div class="card-footer my-auto">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-auto"><i class="bi bi-arrow-left fs-3"></i></div>
+                      <div class="col col-xl-6">
+                        <h2>{{previous.title}}</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="background" style="background-image: url('{{site.assets}}{{previous.image | relative_url }}')">
+                </span>
+              </a>
+            </div>
+            {% if page.next %}
+                {% assign next = page.next %}
+            {% else %}
+                {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+                {% assign next = site.posts[lastPostIndex] %}
+            {% endif %}
+            <div class="col-md-6">
+              <a href="{{site.baseurl}}{{next.url}}" class="card card-hover-reveal equal-lg-2-1 bg-primary inverted">
+                <div class="card-wrap">
+                  <div class="card-footer my-auto text-end">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col col-xl-6">
+                        <h2>{{next.title}}</h2>
+                      </div>
+                      <div class="col-auto"><i class="bi bi-arrow-right fs-3"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="background" style="background-image: url('{{site.assets}}{{next.image | relative_url }}')">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>

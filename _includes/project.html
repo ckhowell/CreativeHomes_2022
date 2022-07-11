@@ -1,0 +1,52 @@
+{% assign book = site.data.portfolio.projects | where: "project", include.project | first %}
+
+<section class="pt-10">
+  <div class="container mt-10">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-8 py-15">
+        <h1>{{book.title}}</h1>
+        
+        <h3 class="">{{book.testimonial}}</h3>
+
+        <p>{{book.text}}</p>
+        <div class="row mt-6">
+          <div class="col-md-2">
+            <small class="eyebrow text-muted mb-1">built</small>
+            <h4 class="fs-5">{{book.year}}</h4>
+          </div>
+          <div class="col-md-2">
+            <small class="eyebrow text-muted mb-1">Beds</small>
+            <h4 class="fs-5">{{book.bed}}</h4>
+          </div>
+          <div class="col-md-2">
+            <small class="eyebrow text-muted mb-1">Bathrooms</small>
+            <h4 class="fs-5">{{book.bath}}</h4>
+          </div>
+          <div class="col-md-2">
+            <small class="eyebrow text-muted mb-1">Car Spaces</small>
+            <h4 class="fs-5">{{book.car}}</h4>
+          </div>
+          <div class="col-md-2">
+            <small class="eyebrow text-muted mb-1">Floor Area</small>
+            <h4 class="fs-5">{{book.area}}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container">
+    <div class="row g-3 g-xl-5 gallery-1">
+      {% for image in page.gallery %}
+      <div class="col-12">
+        <figure class="media media-image equal-2-1" 
+          data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }' >
+          <span  style="background-image: url('{{site.assets}}{{image | relative_url }}')">
+          </span>
+        </figure>        
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
