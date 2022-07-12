@@ -59,7 +59,7 @@
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}">
-<meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
+<meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_AU" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
@@ -69,9 +69,9 @@
 {% endif %}
 
 {% if page_large_image %}
-<meta property="og:image" content="{{ page.hero_image }}">
+<meta property="og:image" content="{{ page.image }}">
 {% elsif page_teaser_image %}
-<meta property="og:image" content="{{ page.hero_image }}">
+<meta property="og:image" content="{{ page.image }}">
 
 {% endif %}
 
