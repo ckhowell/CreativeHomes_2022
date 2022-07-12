@@ -6,3 +6,4 @@ vendor
 _production
 .DS_Store
 Creative Homes.code-workspace
+node_modules

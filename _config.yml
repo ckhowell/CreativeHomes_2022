@@ -9,6 +9,10 @@ assets: /assets/images/projects/
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-purgecss
+
+css_dir: "/assets/css/" # defaults to "css"
+
 # Permalinks
 permalink: pretty
 
