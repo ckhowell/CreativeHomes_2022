@@ -8,39 +8,48 @@ navbar: "navbar-dark"
 logo: logo-light.svg
 ---
 
-
-  <!-- hero -->
-  <section class="cover overflow-hidden bg-black inverted">
-    <div class="d-flex flex-column py-20 min-vh-100 container foreground">
-      <div class="row justify-content-center my-auto">
-        <div class="col-md-8 text-center">
-          <h1 class="home-title fade-up text-center text-white mx-2 z-2" data-aos="zoom-out" data-aos-delay="600">
-            working with you & nature
-         </h1>          
-        </div>
+<!-- hero -->
+<section class="cover overflow-hidden bg-black inverted">
+  <div class="d-flex flex-column py-20 min-vh-100 container foreground">
+    <div class="row justify-content-center my-auto">
+      <div class="col-md-8 text-center">
+        <h1 class="home-title fade-up text-center text-white mx-2 z-2" data-aos="zoom-out" data-aos-delay="600">working with you & nature</h1>
       </div>
     </div>
-    <div class="background background-overlay text-black" data-aos="zoom-out" data-aos-delay="200">
-      <video playsinline autoplay muted loop data-video>
-        <source src="{{site.baseurl}}/assets/video/Creative_Homes_Gold_Coast_Builder_720.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <span class="scroll-down"></span>
-  </section>
-
-  <!-- features -->
-  <section class="py-15 py-xl-20 overflow-hidden gradient green-wood  inverted">
-    <div class="container">
-      <div class="row justify-content-center position-relative">
-        <div class="col-xl-10">
-          <h2 class="fs-2 text-center text-white" data-aos="fade-up" data-aos-delay="200">Creative Homes is a family operated construction company on the Gold Coast with over 20 years of luxury custom home building.</h2>
-        </div>
+  </div>
+  <!-- <div class="background background-overlay text-black aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
+    <div
+      tabindex="0"
+      class="plyr plyr--full-ui plyr--video plyr--html5 plyr--fullscreen-enabled plyr--pip-supported plyr--airplay-supported plyr--playing plyr--hide-controls"
+    >
+      <div class="plyr__video-wrapper">
+        <video playsinline="" autoplay="" muted="" loop="" data-video="">
+          <source src="{{site.baseurl}}/assets/video/Creative_Homes_Gold_Coast_Builder_720.mp4" type="video/mp4" />
+        </video>
+        <div class="plyr__poster"></div>
       </div>
     </div>
-  </section>
+  </div> -->
+  <div class="background background-overlay text-black plyr__video-wrapper" data-aos="zoom-out" data-aos-delay="200" data-poster="{{site.baseurl}}/assets/images/projects/treehouse.jpg">
+    <video playsinline autoplay muted loop data-video>
+      <source src="{{site.baseurl}}/assets/video/Creative_Homes_Gold_Coast_Builder_720.mp4" type="video/mp4" />
+    </video>
+    <div class="plyr__poster"></div>
+  </div>
+  <span class="scroll-down"></span>
+</section>
 
-  {% include story.html %}
-  {% include projects.html %}
-  {% include contact.html %}
+<!-- features -->
+<section class="py-15 py-xl-20 overflow-hidden gradient green-wood inverted">
+  <div class="container">
+    <div class="row justify-content-center position-relative">
+      <div class="col-xl-10">
+        <h2 class="fs-2 text-center text-white" data-aos="fade-up" data-aos-delay="200">
+          Creative Homes is a family operated construction company on the Gold Coast with over 20 years of luxury custom home building.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
 
-
+{% include story.html %} {% include projects.html %} {% include contact.html %}
