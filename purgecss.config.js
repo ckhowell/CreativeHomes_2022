@@ -1,6 +1,4 @@
-purgecss.config.js
-
-const jekyllEnv = process.env.JEKYLL_ENV || "development";
+// const jekyllEnv = process.env.JEKYLL_ENV || "development";
 
 module.exports = {
     // These are the files that Purgecss will search through
