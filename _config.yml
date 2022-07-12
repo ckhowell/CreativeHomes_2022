@@ -2,7 +2,7 @@ title: Creative Homes - Gold Coast Builder
 email: hello@creativehomes.com.au
 description: Creative Homes is a family operated construction company on the Gold Coast. Our buildings reflect the Australian lifestyle that combine the best of indoor and outdoor living.
 baseurl:  # the subpath of your site, e.g. /blog
-url: "http://creativehomes.com.au" # the base hostname & protocol for your site
+url: "https://creativehomes.com.au" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 assets: /assets/images/projects/
