@@ -16904,7 +16904,7 @@ hr.or::before {
 .nav-minimal .nav-minimal .nav-link {
     color:#555
 }
-
+/*! purgecss start ignore */
 .carousel:hover .tns-controls button {
     opacity: 1
 }
@@ -17195,6 +17195,7 @@ hr.or::before {
 .tns-nav button:hover::before {
     background:rgba(0, 0, 0, 0.4)
 }
+/*! purgecss end ignore */
 
 figure {
     margin: 0;
