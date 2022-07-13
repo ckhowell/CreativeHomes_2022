@@ -11,7 +11,8 @@ plugins:
   - jekyll-feed
   - jekyll-purgecss
 
-css_dir: "/assets/css/" # defaults to "css"
+css_dir: "spaz/assets/css/" 
+# defaults to "css"
 
 # Permalinks
 permalink: pretty
