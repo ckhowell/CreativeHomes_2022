@@ -197,3 +197,7 @@ p {
 .card-arrow::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktYXJyb3ctZG93bi1yaWdodCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCAxMy41YS41LjUgMCAwIDEtLjUuNWgtNmEuNS41IDAgMCAxIDAtMWg0Ljc5M0wyLjE0NiAyLjg1NGEuNS41IDAgMSAxIC43MDgtLjcwOEwxMyAxMi4yOTNWNy41YS41LjUgMCAwIDEgMSAwdjZ6Ii8+Cjwvc3ZnPg==")
 }
+
+.dick {
+  color: red;
+}
