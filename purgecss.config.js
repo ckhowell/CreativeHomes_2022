@@ -5,6 +5,6 @@ module.exports = {
     // These are the files that Purgecss will search through
     content: ["./_site/**/*.html"],
     // These are the stylesheets that will be subjected to the purge
-    css: ["./assets/css/**/*.css"],
+    css: ["./assets/css/**/*.css, ./assets/**/*.js"],
     output: ["_site/assets/css/"]
   };
