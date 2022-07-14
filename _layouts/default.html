@@ -4,16 +4,6 @@
 {% include head.html %}
 
 <body>
-  <script>
-    document.body.classList.add('fade');
-  </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      window.setTimeout(function() {
-        document.body.classList.remove('fade');
-      }, 230);
-    });
-  </script>
   {% include gtm.html %}
   {% include nav.html %}
   {{ content }}
