@@ -1,4 +1,20 @@
 projects:
+- test:
+  project: "test"
+  title: "Test"
+  url: "/projects/test/"
+  suburb: "test"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_tally_connection_2.jpg"
+  bed: "5"
+  bath: "5"
+  car: "7"
+  area: "720sqm"
+  year: "2021"
+  lead: ""
+  text: "Connecting with nature to enjoy a relaxed lifestyle living amongst local wildlife such as kangaroos and beautiful birdlife. Spanning a single level and comprising two residences, pool, five car garage and two space carport."
+  testimonial: "We want everyone to have a great experience building their new home and with Creative Homes they get just that."
+
 - currumbin-valley:
   project: "currumbin-valley"
   title: "Currumbin Valley Home"

@@ -24,6 +24,15 @@
   .canela {
     font-family: "Canela-f";
   }
+  body {
+    opacity: 1;
+    transition-duration: 2.2s;
+    transition-property: opacity;
+  }
+
+  body.fade {
+    opacity: 0;
+  }
 
   a:hover {
     color: var(--accent);

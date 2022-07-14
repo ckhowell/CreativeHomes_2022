@@ -40,13 +40,14 @@
     <div class="row g-3 g-xl-5 gallery-1">
       {% for image in page.gallery %}
       <div class="col-12">
-        <figure class="media media-image equal-2-1" 
+      {% assign img = include.img %}
+          <picture class="media media-image equal-2-1" 
           data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('{{site.assets}}{{image | relative_url }}')">
           </span>
-        </figure>        
-      </div>
-    {% endfor %}
+          </picture> 
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>

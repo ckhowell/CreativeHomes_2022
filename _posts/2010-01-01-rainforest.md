@@ -6,11 +6,11 @@ permalink: projects/rainforest/
 nav: "#000"
 navbar: "navbar-light"
 logo: logo-dark.svg
-image: rainforest.jpg
+image: rainforest.webp
 gallery:
-- rainforest.jpg
-- rainforest-2.jpg
-- rainforest-3.jpg
-- rainforest-4.jpg
+- rainforest.webp
+- rainforest-2.webp
+- rainforest-3.webp
+- rainforest-4.webp
 ---
 {% include project.html project = 'rainforest' %}

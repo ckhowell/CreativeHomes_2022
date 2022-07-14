@@ -1,0 +1,74 @@
+<!-- <section class="py-5">
+  <div class="container">
+    <div class="row g-3 g-xl-5 gallery-1">
+      {% for image in page.gallery %}
+      <div class="col-12">
+        <figure class="media media-image equal-2-1" 
+          data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }' >
+          <span  style="background-image: url('{{site.assets}}{{image | relative_url }}')">
+          </span>
+        </figure>        
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section> -->
+
+<!-- aleksandrhovhannisyan.com -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-3 g-xl-5 gallery-1">
+      {% for image in page.gallery %}
+      {% assign img = include.img %}
+          <picture class="media media-image equal-2-1" 
+          data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }' >
+          <span  style="background-image: url('{{site.assets}}{{image | relative_url }}')">
+          </span>
+          </picture> 
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- aleksandrhovhannisyan.com -->
+{% assign img = include.img %}
+<picture>
+    <source type="image/webp" srcset="/assets/images/{{ page.project }}{{ img }}.webp" >
+    <img src="/assets/images/{{ page.gallery }}{{ img }}.{{ include.ext }}" alt="{{ include.alt }}" />
+</picture>
+
+
+
+<figure class="{{ include.class | default: 'my-5 text-center' }}">
+    <picture>
+      <source srcset="{{ include.image | replace:'.png','.webp' | replace:'.jpg','.webp' | replace:'.jpeg','.webp' }}" type="image/webp">
+      <source srcset="{{ include.image }}" {% if include.image contains '.jpg' or include.image contains '.jpeg' %}type="image/jpeg"{% elsif include.image contains '.png' %}type="image/png"{% endif %}>
+      <img class="mx-auto" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }}>
+    </picture>
+    {% if include.caption %}<figcaption class="p-name mt-3 caption">{{ include.caption }}</figcaption>{% endif -%}
+  </figure>
+  
+<!-- thisdaysportion.com -->
+{% assign webp_filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png", ".webp" | replace: ".tiff", ".webp" %}
+<figure>
+  <picture>
+    <!-- Use the webp file -->
+    <source srcset="/images/{{ webp_filename }}' type="image/webp">
+    <!-- Fallback to the file you added -->
+    <img src="/images/{{ include.url }}" alt="{{ include.alt }}">
+  </picture>
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+
+<figure>
+  <picture>
+      {% if include.avif %}
+      {% assign webp_filename = include.url | replace: ".jpg", ".avif" | replace: ".jpeg", ".avif" | replace: ".png", ".avif" | replace: ".tif", ".avif" %}
+      {% else %}
+
+      {% assign webp_filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png", ".webp" | replace: ".tif", ".webp" %}
+      {% endif %}
+      <source srcset='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ webp_filename }}' type="image/webp">
+      <img src='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ include.url }}' alt="{{ include.alt }}"{% unless include.not-lazy %} loading="lazy"{% endunless %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}>
+  </picture>
+</figure>
