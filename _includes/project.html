@@ -34,8 +34,34 @@
       </div>
     </div>
   </div>
-</section>
-<section class="py-5">
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-3 g-xl-5 gallery-1">
+        {% for image in page.gallery %}
+        <div class="col-12">
+        {% assign img = include.img %}
+
+            <picture class="media media-image equal-2-1" data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }'>
+
+            <span style="background-image: url('{{site.assets}}{{image | relative_url | replace:'.png','.webp' | replace:'.jpg','.webp'}}')" type="image/webp"></span>
+
+            {% if include.image contains '.jpg' %}
+            <span style="background-image: url('{{site.assets}}{{image | relative_url | replace:'.webp','.jpeg'}}')" type="image/jpeg"></span>
+          
+            {% endif %}
+            
+          </picture>
+
+          </div>
+
+        {% endfor %}
+        
+      </div>
+    </div>
+  </section>  
+
+<!-- WORKING WITHOUT FALLBACK -->
+<!-- <section class="py-5">
   <div class="container">
     <div class="row g-3 g-xl-5 gallery-1">
       {% for image in page.gallery %}
@@ -50,4 +76,4 @@
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
