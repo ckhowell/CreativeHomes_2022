@@ -6,7 +6,7 @@ permalink: projects/little-tree/
 nav: "#000"
 navbar: "navbar-light"
 logo: logo-dark.svg
-image: creative_homes_little_tree-1.jpg
+image: creative_homes_little_tree-1.webp
 gallery:
 - creative_homes_little_tree-1.jpg
 - creative_homes_little_tree-2.jpg

@@ -6,7 +6,7 @@ permalink: projects/wilarimbam/
 nav: "#000"
 navbar: "navbar-light"
 logo: logo-dark.svg
-image: wilarimbam_1.webp
+image: creative_homes_wilarimbam_rd-2.webp
 gallery:
 - creative_homes_wilarimbam_rd-2.webp
 - creative_homes_wilarimbam_rd-3.webp

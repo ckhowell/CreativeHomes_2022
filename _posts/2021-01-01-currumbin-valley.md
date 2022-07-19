@@ -6,7 +6,7 @@ permalink: projects/currumbin-valley/
 nav: "#000"
 navbar: "navbar-light"
 logo: logo-dark.svg
-image: creative_homes_tally_connection_1.webp
+image: creative_homes_tally_connection_2.webp
 gallery:
 - creative_homes_tally_connection_1.webp
 - creative_homes_tally_connection_2.webp
