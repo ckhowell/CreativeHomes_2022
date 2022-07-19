@@ -16,7 +16,7 @@ logo: logo-dark.svg
           <h2>Let's build something big. <span class="italic">Together.</span></h2>
         </div>
         <div class="col-lg-8">
-          <form action="contact.html#" class="row g-3" netlify>
+          <form name="contact" method="POST" data-netlify="true" class="row g-3">
             <div class="col-md-6">
               <label for="FirstName" class="form-label">First Name*</label>
               <input type="text" class="form-control" id="FirstName" placeholder="First Name">
@@ -40,7 +40,7 @@ logo: logo-dark.svg
             </div>
 
             <div class="col-md-12">
-              <a href="#" class="btn btn-block btn-outline-black smcaps">Submit</a>
+              <button class="btn btn-block btn-outline-black smcaps" type="submit">Send</button>
             </div>
           </form>
         </div>

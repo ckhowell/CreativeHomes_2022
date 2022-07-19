@@ -46,7 +46,6 @@ projects:
   lead: ""
   text: Perched in a peaceful leaf enclave in the prestigious Mudgeeraba Forest Estate, the home blends harmoniously with the surrounding bushland..
   testimonial: "We want everyone to have a great experience building their new home &mdash; and with Creative Homes they get just that."
-
 - tolga:
   project: "tolga"
   title: "Tolga Road"
@@ -97,6 +96,22 @@ projects:
   lead: "Featuring: 5 Bedrooms, 3 Bathrooms,"
   text: The client dreamt of building a house in symbiosis with its natural environment.It is nestled with little impact into a beautiful plot of wooded land in Tallebudgera on the Gold Coast. With windows on each side of the living room the house was able to catch a breeze or view from any direction.
   testimonial: We built our dream home with Creative Homes and couldn't be happier. Anyone who visits compares it to living in a resort.
+
+- 99tolga:
+  project: "99 tolga"
+  title: "99 Tolga Road"
+  url: "/projects/99-tolga/"
+  suburb: "Bonogin"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_99_tolga_rd.webp"
+  bed: "3"
+  bath: "2"
+  car: "2"
+  area: "319sqm"
+  year: "2016"
+  lead: ""
+  text: "This spacious home exude's character with its soaring ceilings and timber flooring. Surrounded with so many decks and balconies all taking in nature from all angles."
+  testimonial: "There was never a moment where there was too much trouble to go above and beyond."
 
 - rainforest:
   project: "rainforest"
@@ -168,4 +183,20 @@ projects:
   text: Creative Home's founder Jeff Dray designed and built this unique home, built on piers extending into the water, it offers an extraordinary connection to the water. Wildlife such as turtles and all kinds of water birds created a truly rare living experience. The pool was designed so that it blended seamlessly into the lake.
   testimonial: This house was the first built within Tallebudgera Park Estate, it was only fitting to create something special.
 
+- summercreek:
+  project: "summercreek"
+  title: "Summer Creek"
+  url: "/projects/summercreek/"
+  suburb: "Nerang"
+  city: "Gold Coast"
+  image: "/assets/images/projects/creative_homes_summercreek_10.webp"
+  bed: "4"
+  bath: "3"
+  car: "2"
+  area: "382sqm"
+  year: "2000"
+  imgvariable: "summercreek"
+  lead:
+  text: Architecturally impressive yet unpretentious within its surroundings, it sits above the gentle rise of the land shared by a myriad of wildlife, birdlife and flora from turtles, frogs and dragonflies to herons, native fish species and lotus lilies.
+  testimonial: A series of boardwalks, piers and walkways suspend seamlessly over the billabong, connecting the functional main residence with extensive outdoor entertaining spaces and the relaxation retreat comprising three bedrooms, the main bathroom and an open living space.
 
