@@ -1,12 +1,12 @@
 {% assign book = site.data.portfolio.projects | where: "project", include.project | first %}
 
-<section class="pt-10">
-  <div class="container mt-10">
+<section class="pt-15">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 col-xl-8 py-15">
         <h1>{{book.title}}</h1>
         
-        <h3 class="">{{book.testimonial}}</h3>
+        <h3>{{book.testimonial}}</h3>
 
         <p>{{book.text}}</p>
         <div class="row mt-6">
@@ -34,46 +34,18 @@
       </div>
     </div>
   </div>
+
   <section class="py-5">
     <div class="container">
       <div class="row g-3 g-xl-5 gallery-1">
-        {% for image in page.gallery %}
+        {% for foo in page.gallery %}
         <div class="col-12">
-        {% assign img = include.img %}
-
-            <picture class="media media-image equal-2-1" data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }'>
-
-            <span style="background-image: url('{{site.assets}}{{image | relative_url | replace:'.png','.webp' | replace:'.jpg','.webp'}}')" type="image/webp"></span>
-
-            {% if include.image contains '.jpg' %}
-            <span style="background-image: url('{{site.assets}}{{image | relative_url | replace:'.webp','.jpeg'}}')" type="image/jpeg"></span>
-          
-            {% endif %}
-            
+            <picture class="media media-image equal-2-1" data-bp='{"imgSrc": "{{site.assets}}{{foo | relative_url }}" , "parentGalleryClass": "gallery-1" }'>
+              <source srcset="{{site.assets}}{{foo | relative_url | replace:'.jpg','.webp'}}" alt="{{foo}}" type="image/webp" loading="lazy" decoding="async">
+              <img class="img-fluid" src="{{site.assets}}{{foo | relative_url | replace:'.webp','.jpg'}}" alt="{{foo}}" type="image/jpeg" loading="lazy" decoding="async">
           </picture>
-
           </div>
-
         {% endfor %}
-        
       </div>
     </div>
   </section>  
-
-<!-- WORKING WITHOUT FALLBACK -->
-<!-- <section class="py-5">
-  <div class="container">
-    <div class="row g-3 g-xl-5 gallery-1">
-      {% for image in page.gallery %}
-      <div class="col-12">
-      {% assign img = include.img %}
-          <picture class="media media-image equal-2-1" 
-          data-bp='{"imgSrc": "{{site.assets}}{{image | relative_url }}" , "parentGalleryClass": "gallery-1" }' >
-          <span  style="background-image: url('{{site.assets}}{{image | relative_url }}')">
-          </span>
-          </picture> 
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section> -->

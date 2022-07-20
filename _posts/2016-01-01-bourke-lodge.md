@@ -1,7 +1,7 @@
 ---
 layout: project
-project: bourkes
-title: Bourke's Lodge
+project: bourke
+title: Bourke Lodge
 permalink: projects/bourke-lodge/
 nav: "#000"
 navbar: "navbar-light"
@@ -19,4 +19,4 @@ gallery:
 - creative_homes_bourke_lodge_9.webp
 - creative_homes_bourke_lodge_10.webp
 ---
-{% include project.html project = 'bourkes' %}
+{% include project.html project = 'bourke' %}
