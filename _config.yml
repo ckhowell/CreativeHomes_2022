@@ -10,7 +10,8 @@ assets: /assets/images/projects
 plugins:
   - jekyll-feed
   - jekyll-purgecss
-
+  - jekyll-sitemap
+  
 css_dir: "spaz/assets/css/" 
 # defaults to "css"
 
