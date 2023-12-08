@@ -17,7 +17,7 @@ image: creative_homes_tree_house_5.webp
           <h2>Let's build something big. <span class="italic">Together.</span></h2>
         </div>
         <div class="col-lg-8">
-          <form name="contact" method="POST" data-netlify="true" action="/success" class="row g-3">
+          <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success" class="row g-3">
             <div class="col-md-6">
               <label for="FirstName" class="form-label">First Name*</label>
               <input type="text" class="form-control" name="FirstName" placeholder="First Name">
@@ -38,6 +38,9 @@ image: creative_homes_tree_house_5.webp
               <label for="yourMessage" class="form-label">Message</label>
               <textarea class="form-control" name="yourMessage" rows="6" placeholder="Message"></textarea>
             </div>
+            <div class="col-md-12">
+              <div data-netlify-recaptcha="true"></div>
+            </div>            
             <div class="col-md-12">
               <button class="btn btn-block btn-outline-black smcaps" type="submit">Send</button>
             </div>
